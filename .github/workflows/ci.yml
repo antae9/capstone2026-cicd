@@ -43,6 +43,6 @@ jobs:
 
       - name: 의존성 설치 & 빌드
         run: |
-          cd frontend
+          cd capstone2026/frontend
           npm install
           npm run build
