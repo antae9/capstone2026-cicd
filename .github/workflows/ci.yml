@@ -41,8 +41,8 @@ jobs:
         with:
           node-version: 18
 
-      - name: 의존성 설치 & 빌드
+      - name: 의존성 설치 & 빌드S
         run: |
-          cd capstone2026/frontend
+          cd frontend
           npm install
           npm run build
