@@ -41,7 +41,7 @@ jobs:
         with:
           node-version: 18
 
-      - name: 의존성 설치 & 빌드S
+      - name: 의존성 설치 & 빌드
         run: |
           cd frontend
           npm install
