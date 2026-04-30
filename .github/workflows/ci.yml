@@ -42,7 +42,7 @@ jobs:
           node-version: 18
 
       - name: 의존성 설치 & 빌드
+        working-directory: ./frontend  # 실행 위치를 미리 지정
         run: |
-          cd frontend
           npm install
           npm run build
